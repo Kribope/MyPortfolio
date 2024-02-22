@@ -1084,7 +1084,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 header {
-	position: fixed;
+	position: relative;
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
@@ -1119,8 +1119,8 @@ header .logo a {
 	color: transparent;
 	width: 92px;
 	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background: url("../images/logos.png") no-repeat center;
+	background-size: 92px 20px;
 }
 
 /**
